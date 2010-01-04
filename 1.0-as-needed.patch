@@ -1,0 +1,8 @@
+--- origsrc/pngnq-1.0/src/Makefile.am	2009-05-20 07:04:15.000000000 -0500
++++ src/pngnq-1.0/src/Makefile.am	2009-12-18 04:31:26.165148900 -0600
+@@ -1,4 +1,4 @@
+-AM_LDFLAGS = ${shell libpng-config --ldflags} -lz
++LIBS = ${shell libpng-config --ldflags} -lz
+ AM_CFLAGS = ${shell libpng-config --I_opts} -Wall --pedantic -std=gnu99
+ 
+ bin_PROGRAMS = pngnq pngcomp
