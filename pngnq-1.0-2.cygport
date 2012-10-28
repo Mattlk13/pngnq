@@ -1,4 +1,0 @@
-DESCRIPTION="PNG quantization tool"
-HOMEPAGE="http://pngnq.sourceforge.net/"
-SRC_URI="mirror://sourceforge/pngnq/${P}.tar.gz"
-PATCH_URI="1.0-as-needed.patch"

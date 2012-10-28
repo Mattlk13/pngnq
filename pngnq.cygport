@@ -1,0 +1,12 @@
+NAME="pngnq"
+VERSION=1.1
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="PNG quantization tool"
+DESCRIPTION="Pngnq is a tool for quantizing PNG images in RGBA format.
+Pngnq is an adaptation by Stuart Coyle of Greg Roelf's pnqquant program
+using Anthony Dekker's neuquant algorithm."
+HOMEPAGE="http://pngnq.sourceforge.net/"
+SRC_URI="mirror://sourceforge/pngnq/${P}.tar.gz"
+PATCH_URI="1.0-as-needed.patch
+           http://pkgs.fedoraproject.org/cgit/pngnq.git/plain/pngnq-libpng15.patch"
